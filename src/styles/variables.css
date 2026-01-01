@@ -1,0 +1,38 @@
+:root {
+    /* Colors */
+    --bg-primary: #050505;
+    --bg-secondary: #0a0a0a;
+    --bg-tertiary: #111111;
+
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --text-tertiary: #505050;
+
+    --accent-cyan: #00f3ff;
+    --accent-purple: #bc13fe;
+    --accent-green: #0aff00;
+    --accent-orange: #ffaa00;
+    --accent-red: #ff003c;
+
+    /* Terminal Colors */
+    --terminal-bg: #0c0c0c;
+    --terminal-header: #1a1a1a;
+    --terminal-text: #00ff41;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    /* Borders */
+    --border-color: #333333;
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+
+    /* Typography */
+    --font-mono: 'Space Mono', 'Fira Code', monospace;
+    --font-sans: 'Inter', system-ui, sans-serif;
+}

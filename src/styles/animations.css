@@ -1,0 +1,57 @@
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--accent-cyan)
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px var(--accent-cyan);
+    }
+
+    50% {
+        box-shadow: 0 0 20px var(--accent-cyan);
+    }
+
+    100% {
+        box-shadow: 0 0 5px var(--accent-cyan);
+    }
+}

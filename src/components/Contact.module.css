@@ -1,0 +1,114 @@
+.contactSection {
+    background-color: var(--bg-primary);
+    padding: var(--space-xl) var(--space-md);
+    color: var(--text-primary);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terminalCard {
+    width: 100%;
+    max-width: 600px;
+    background: var(--terminal-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    background: var(--terminal-header);
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+}
+
+.body {
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.commandRow {
+    display: flex;
+    font-family: var(--font-mono);
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.prompt {
+    color: var(--accent-green);
+}
+
+.command {
+    color: var(--text-primary);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.inputGroup {
+    position: relative;
+}
+
+.label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-xs);
+}
+
+.input,
+.textarea {
+    width: 100%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: var(--space-sm);
+    font-family: var(--font-mono);
+    border-radius: var(--border-radius-sm);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: var(--accent-cyan);
+}
+
+.textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submitBtn {
+    background: transparent;
+    color: var(--accent-cyan);
+    border: 1px solid var(--accent-cyan);
+    padding: var(--space-sm) var(--space-lg);
+    font-family: var(--font-mono);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submitBtn:hover {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    box-shadow: 0 0 10px var(--accent-cyan);
+}

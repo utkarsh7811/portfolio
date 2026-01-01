@@ -1,0 +1,19 @@
+.footer {
+    padding: var(--space-lg) var(--space-md);
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-tertiary);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    /* Space for status bar */
+}
+
+.hash {
+    color: var(--accent-purple);
+}
+
+.heart {
+    color: var(--accent-red);
+}
