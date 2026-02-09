@@ -15,35 +15,38 @@ const projects = [
         demo: '#'
     },
     {
-        title: 'k8s-microservices-mesh',
-        desc: 'Microservices architecture deployed on GKE with Istio integration.',
-        tech: ['Kubernetes', 'Istio', 'Go', 'GCP'],
-        status: 'Running',
-        replicas: '3/3',
-        region: 'us-central1',
-        github: '#',
-        demo: '#'
-    },
+    title: 'static-web-hosting',
+    desc: 'High-performance static website hosted using cloud storage and CDN with HTTPS enabled.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Cloud Storage', 'CDN'],
+    status: 'Live',
+    replicas: 'N/A',
+    region: 'Global',
+    github: '#',
+    demo: '#'
+},
+
+   {
+    title: 'aws-auto-scaling-infrastructure',
+    desc: 'Scalable AWS infrastructure with Auto Scaling Groups, Load Balancer, and real-time monitoring using CloudWatch.',
+    tech: ['AWS EC2', 'Auto Scaling', 'Application Load Balancer', 'CloudWatch', 'Terraform'],
+    status: 'Running',
+    replicas: 'Auto',
+    region: 'ap-south-1',
+    github: '#',
+    demo: '#'
+},
+
     {
-        title: 'cicd-pipeline-dashboard',
-        desc: 'Real-time dashboard for visualizing Jenkins and GitHub Actions pipelines.',
-        tech: ['React', 'WebSocket', 'Jenkins', 'Docker'],
-        status: 'Deployed',
-        replicas: '2/2',
-        region: 'eu-west-1',
-        github: '#',
-        demo: '#'
-    },
-    {
-        title: 'terraform-modules-registry',
-        desc: 'Custom Terraform modules for multi-cloud infrastructure provisioning.',
-        tech: ['Terraform', 'HCL', 'AWS', 'Azure'],
-        status: 'Archived',
-        replicas: 'N/A',
-        region: 'global',
-        github: '#',
-        demo: '#'
-    }
+    title: 'aws-sandbox-vpc',
+    desc: 'Isolated AWS sandbox VPC with public and private subnets, Internet Gateway, NAT Gateway, and secure routing for learning and testing.',
+    tech: ['AWS VPC', 'Subnets', 'Route Tables', 'Internet Gateway', 'NAT Gateway', 'Terraform'],
+    status: 'Active',
+    replicas: 'N/A',
+    region: 'ap-south-1',
+    github: '#',
+    demo: '#'
+},
+
 ];
 
 const Projects = () => {

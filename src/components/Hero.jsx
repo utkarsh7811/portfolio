@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FiGithub } from 'react-icons/fi';
 import styles from './Hero.module.css';
 import Particles from './Particles';
-
+import profileimg from '../assets/utkasrh.png';
 const Hero = () => {
     const [step, setStep] = useState(0);
 
@@ -71,8 +71,8 @@ const Hero = () => {
                             <div className={styles.profileCard}>
                                 <div className={styles.profileImageContainer}>
                                     <img
-                                        src="https://media.licdn.com/dms/image/v2/D5603AQG_DrR6eghwig/profile-displayphoto-crop_800_800/B56ZtGbvy4IkAM-/0/1766413270453?e=1769040000&v=beta&t=ici_c046M-2-wGj_z-8p5J2uqlCpIC_sNFl52T3a4U0"
-                                        alt="Utkarsh Tiwari"
+                                        src={profileimg}
+                                        alt="Utkarsh Tiwari"    
                                         className={styles.profileImage}
                                     />
                                     <div className={styles.glitchEffect}></div>
@@ -87,9 +87,13 @@ const Hero = () => {
                                     <a href="https://github.com/utkarsh7811" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                                         <FiGithub /> github.com/utkarsh7811
                                     </a>
+                                    {/* add one more button of download my cv */}
+                                    <a href="https://docs.google.com/document/d/10JEiEnCH0pmMqIJC5YBo3kKqcpVmO2KUEsuSnf3knYw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                                        <FiGithub /> Download CV
+                                    </a>
                                 </div>
                             </div>
-                        </div>
+                        </div>  
                     </motion.div>
 
                     <motion.div
